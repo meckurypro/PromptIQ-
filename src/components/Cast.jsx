@@ -36,11 +36,14 @@ export default function Cast() {
     <section id="cast">
       <div className="container">
         <div className="section-head">
-          <span className="eyebrow">The talent</span>
-          <h2>Meet the cast.</h2>
+          <span className="eyebrow">Our portfolio</span>
+          <h2>Meet our AI-native cast.</h2>
           <p>
-            AI-native actors, musicians, and personalities — designed once,
-            cast across every PromptIQ production.
+            Zara, Nyx, and the rest of the roster are PromptIQ's own creations —
+            proof of what an AI-native character can do, not talent for hire.
+            Want your own AI twin or AI influencer? We build custom personas
+            for brands and individuals, or teach you to build one yourself
+            through IQ Academy.
           </p>
         </div>
         <div className="cast-grid">
