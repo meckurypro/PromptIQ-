@@ -23,7 +23,13 @@ export const heroBackgrounds = {
   cinema: `${BASE}/iqcinemahero.png`,
   ads: `${BASE}/iqadshero.png`,
   academy: `${BASE}/iqacademyhero.png`,
+  pulse: `${BASE}/iqpulsehero.png`,
   meckuryAI: `${BASE}/meckuryaihero.png`,
+}
+
+export const founder = {
+  image: `${BASE}/founder.png`,
+  name: 'Meckury',
 }
 
 export const contact = {
