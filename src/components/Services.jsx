@@ -1,6 +1,6 @@
 // src/components/Services.jsx
 import { useEffect, useRef, useState } from 'react'
-import { logos, heroBackgrounds } from '../assets'
+import { logos, heroBackgrounds, contact } from '../assets'
 
 const slides = [
   {
@@ -29,6 +29,16 @@ const slides = [
     href: '#contact',
     linkLabel: 'Explore Academy',
     bg: heroBackgrounds.academy,
+  },
+  {
+    key: 'pulse',
+    wordmark: 'IQ Pulse',
+    name: 'IQ Pulse',
+    desc: 'Daily content on history, culture, and AI — the stream behind PromptIQ\u2019s social presence. Available for brand collaborations and custom commissions too.',
+    href: `https://wa.me/${contact.phone.replace('+', '')}?text=${encodeURIComponent("Hi PromptIQ, I'm interested in IQ Pulse content. Here's what I have in mind:")}`,
+    linkLabel: 'Chat on WhatsApp',
+    external: true,
+    bg: heroBackgrounds.pulse,
   },
   {
     key: 'meckuryAI',
@@ -64,10 +74,11 @@ export default function Services() {
     <section id="services" className="slider-section">
       <div className="section-head container">
         <span className="eyebrow">What we do</span>
-        <h2>One agency, four disciplines.</h2>
+        <h2>One agency, five disciplines.</h2>
         <p>
           Each arm of PromptIQ stands on its own, built for a different job —
-          from feature production to brand commercials to public AI education.
+          from feature production and brand commercials to daily content and
+          public AI education.
         </p>
       </div>
 
@@ -85,7 +96,11 @@ export default function Services() {
           >
             <div className="slide-overlay" />
             <div className="slide-logo-badge">
-              <img src={s.logo} alt={`${s.name} logo`} className="slide-logo" />
+              {s.logo ? (
+                <img src={s.logo} alt={`${s.name} logo`} className="slide-logo" />
+              ) : (
+                <span className="slide-wordmark">{s.wordmark}</span>
+              )}
             </div>
             <div className="slide-content container">
               <h3>{s.name}</h3>
