@@ -84,8 +84,10 @@ export default function Services() {
             aria-hidden={i !== active}
           >
             <div className="slide-overlay" />
-            <div className="slide-content container">
+            <div className="slide-logo-badge">
               <img src={s.logo} alt={`${s.name} logo`} className="slide-logo" />
+            </div>
+            <div className="slide-content container">
               <h3>{s.name}</h3>
               <p>{s.desc}</p>
               <a
