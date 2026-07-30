@@ -1,4 +1,3 @@
-// src/components/Hero.jsx
 export default function Hero() {
   return (
     <header className="hero" id="top">
@@ -12,8 +11,8 @@ export default function Hero() {
         <p className="lede">
           PromptIQ is a Nigerian AI creative agency. We produce original film,
           build cinematic campaigns for brands, and teach AI skills that
-          stick — all through a cast of AI-native talent, built once and
-          cast everywhere.
+          stick — with a roster of AI-native characters, entirely our own,
+          showing exactly what's possible.
         </p>
         <div className="chip-row">
           <a href="#services" className="chip"><span className="dot" />IQ Cinema</a>
