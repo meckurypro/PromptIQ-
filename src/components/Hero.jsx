@@ -9,7 +9,7 @@ export default function Hero() {
           All engineered <em>with AI.</em>
         </h1>
         <p className="lede">
-          PromptIQ is a Nigerian AI creative agency. We produce original film,
+          PromptIQ is an AI creative agency. We produce original film,
           build cinematic campaigns for brands, and teach AI skills that
           stick — with a roster of AI-native characters, entirely our own,
           showing exactly what's possible.
@@ -18,6 +18,7 @@ export default function Hero() {
           <a href="#services" className="chip"><span className="dot" />IQ Cinema</a>
           <a href="#services" className="chip"><span className="dot" />IQ Ads</a>
           <a href="#services" className="chip"><span className="dot" />IQ Academy</a>
+          <a href="#services" className="chip"><span className="dot" />IQ Pulse</a>
           <a href="#services" className="chip"><span className="dot" />Meckury AI</a>
         </div>
       </div>
