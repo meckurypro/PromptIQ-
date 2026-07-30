@@ -1,4 +1,3 @@
-// src/assets.js
 const BASE = 'https://raw.githubusercontent.com/meckurypro/PromptIQ-/main/public'
 
 export const logos = {
@@ -19,15 +18,12 @@ export const cast = [
   { name: 'Zoba', role: 'Singer', img: `${BASE}/zoba.png` },
 ]
 
-// Placeholder editorial backgrounds for the services hero slider.
-// Swap these seeded picsum.photos URLs for real production stills /
-// campaign photography / classroom photos whenever they're ready —
-// just replace the `bg` value below, everything else stays the same.
+// Editorial backgrounds for the services hero slider.
 export const heroBackgrounds = {
-  cinema: 'https://picsum.photos/seed/promptiq-cinema/1600/900',
-  ads: 'https://picsum.photos/seed/promptiq-ads/1600/900',
-  academy: 'https://picsum.photos/seed/promptiq-academy/1600/900',
-  meckuryAI: 'https://picsum.photos/seed/promptiq-meckury/1600/900',
+  cinema: `${BASE}/iqcinemahero.png`,
+  ads: `${BASE}/iqadshero.png`,
+  academy: `${BASE}/iqacademyhero.png`,
+  meckuryAI: `${BASE}/meckuryaihero.png`,
 }
 
 export const contact = {
