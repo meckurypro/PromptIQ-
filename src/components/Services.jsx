@@ -25,7 +25,7 @@ const slides = [
     key: 'academy',
     logo: logos.iqAcademy,
     name: 'IQ Academy',
-    desc: 'Hands-on AI literacy for communities — from foundational AI skills to workflow automation and AI-assisted web development.',
+    desc: 'AI education built around how people actually learn — cohort workshops, one-on-one mentorship, hands-on internships, and quick consultations for creators and brands.',
     href: '#contact',
     linkLabel: 'Explore Academy',
     bg: heroBackgrounds.academy,
