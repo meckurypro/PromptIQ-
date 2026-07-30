@@ -73,8 +73,17 @@ export default function Contact() {
 
             <div className="form-row">
               <div>
-                <label htmlFor="phone">Phone (optional)</label>
-                <input id="phone" name="phone" value={form.phone} onChange={handleChange} />
+                <label htmlFor="phone">Phone / WhatsApp</label>
+                <input
+                  id="phone"
+                  name="phone"
+                  type="tel"
+                  inputMode="numeric"
+                  pattern="[0-9+ ]*"
+                  required
+                  value={form.phone}
+                  onChange={handleChange}
+                />
               </div>
               <div>
                 <label htmlFor="inquiry_type">Inquiry type</label>
