@@ -5,6 +5,7 @@ export const logos = {
   iqCinema: `${BASE}/iqcinemalogo.webp`,
   iqAds: `${BASE}/iqadslogo.png`,
   iqAcademy: `${BASE}/iqacademy.png`,
+  iqPulse: `${BASE}/iqpulseicon.png`,
   meckuryAI: `${BASE}/meckuryaiicon.png`,
   favicon: `${BASE}/promptiqfavicon.png`,
 }
