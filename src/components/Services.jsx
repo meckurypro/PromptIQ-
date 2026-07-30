@@ -32,9 +32,9 @@ const slides = [
   },
   {
     key: 'pulse',
-    wordmark: 'IQ Pulse',
+    logo: logos.iqPulse,
     name: 'IQ Pulse',
-    desc: 'Daily content on history, culture, and AI — the stream behind PromptIQ\u2019s social presence. Available for brand collaborations and custom commissions too.',
+    desc: "Daily content on history, culture, and AI — the stream behind PromptIQ's social presence. Available for brand collaborations and custom commissions too.",
     href: `https://wa.me/${contact.phone.replace('+', '')}?text=${encodeURIComponent("Hi PromptIQ, I'm interested in IQ Pulse content. Here's what I have in mind:")}`,
     linkLabel: 'Chat on WhatsApp',
     external: true,
