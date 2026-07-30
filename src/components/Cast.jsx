@@ -36,7 +36,7 @@ export default function Cast() {
     <section id="cast">
       <div className="container">
         <div className="section-head">
-          <span className="eyebrow">Our portfolio</span>
+          <span className="eyebrow">Digital characters</span>
           <h2>Meet our AI-native cast.</h2>
           <p>
             Zara, Nyx, and the rest of the roster are PromptIQ's own creations —
