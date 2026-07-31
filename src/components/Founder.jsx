@@ -24,8 +24,7 @@ export default function Founder() {
             work, reasoning through problems, and building whatever his
             imagination demanded, one new skill at a time. When generative AI
             arrived, it wasn't a new hobby so much as a new material — he now
-            thinks and builds in it, deploying open-source models via ComfyUI
-            and RunPod, and producing the films, ads, content, and AI
+            thinks and builds in it, deploying open-source models, and producing the films, ads, content, and AI
             education that make up PromptIQ today.
           </p>
         </div>
