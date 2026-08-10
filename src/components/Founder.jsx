@@ -11,9 +11,9 @@ export default function Founder() {
           <span className="eyebrow">The founder</span>
           <h2>A new material to build in.</h2>
           <p>
-            "Meckury" started as a stage name, back when he was a musician
-            teaching himself animation, design, and editing just to support
-            his own music.
+            "Meckury" started as a stage name, back when he first started
+            making music and taught himself animation, design, and editing
+            just to support it.
           </p>
           <p>
             Nursing came next — a different discipline, same instinct: pull
