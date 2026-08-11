@@ -8,8 +8,9 @@ const slides = [
     logo: logos.iqCinema,
     name: 'IQ Cinema',
     desc: 'Original film and series production starring our roster of AI-native actors — built for streaming, festivals, and social release.',
-    href: '#contact',
+    href: 'https://cinema.promptiq.com.ng',
     linkLabel: 'Explore Cinema',
+    external: true,
     bg: heroBackgrounds.cinema,
   },
   {
@@ -17,8 +18,9 @@ const slides = [
     logo: logos.iqAds,
     name: 'IQ Ads',
     desc: 'Cinematic commercials for brands — built for products, services, and events that need real visibility, not stock footage.',
-    href: '#contact',
+    href: 'https://ads.promptiq.com.ng',
     linkLabel: 'Explore Ads',
+    external: true,
     bg: heroBackgrounds.ads,
   },
   {
@@ -26,8 +28,9 @@ const slides = [
     logo: logos.iqAcademy,
     name: 'IQ Academy',
     desc: 'AI education built around how people actually learn — cohort workshops, one-on-one mentorship, hands-on internships, and quick consultations for creators and brands.',
-    href: '#contact',
+    href: 'https://academy.promptiq.com.ng',
     linkLabel: 'Explore Academy',
+    external: true,
     bg: heroBackgrounds.academy,
   },
   {
@@ -105,7 +108,7 @@ export default function Services() {
             <div className="slide-content container">
               <h3>{s.name}</h3>
               <p>{s.desc}</p>
-              <a
+              
                 className="service-link"
                 href={s.href}
                 target={s.external ? '_blank' : undefined}
