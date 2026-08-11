@@ -1,6 +1,6 @@
 // src/components/Services.jsx
 import { useEffect, useRef, useState } from 'react'
-import { logos, heroBackgrounds, contact } from '../assets'
+import { logos, heroBackgrounds } from '../assets'
 
 const slides = [
   {
@@ -38,8 +38,8 @@ const slides = [
     logo: logos.iqPulse,
     name: 'IQ Pulse',
     desc: "Daily content on history, culture, and AI — the stream behind PromptIQ's social presence. Available for brand collaborations and custom commissions too.",
-    href: `https://wa.me/${contact.phone.replace('+', '')}?text=${encodeURIComponent("Hi PromptIQ, I'm interested in IQ Pulse content. Here's what I have in mind:")}`,
-    linkLabel: 'Chat on WhatsApp',
+    href: 'https://pulse.promptiq.com.ng',
+    linkLabel: 'Explore Pulse',
     external: true,
     bg: heroBackgrounds.pulse,
   },
