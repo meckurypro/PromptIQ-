@@ -110,6 +110,7 @@ export default function Services() {
               <p>{s.desc}</p>
               
                 className="service-link"
+              <a
                 href={s.href}
                 target={s.external ? '_blank' : undefined}
                 rel={s.external ? 'noreferrer' : undefined}
