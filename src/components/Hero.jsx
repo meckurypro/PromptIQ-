@@ -15,11 +15,11 @@ export default function Hero() {
           showing exactly what's possible.
         </p>
         <div className="chip-row">
-          <a href="#services" className="chip"><span className="dot" />IQ Cinema</a>
-          <a href="#services" className="chip"><span className="dot" />IQ Ads</a>
-          <a href="#services" className="chip"><span className="dot" />IQ Academy</a>
-          <a href="#services" className="chip"><span className="dot" />IQ Pulse</a>
-          <a href="#services" className="chip"><span className="dot" />Meckury AI</a>
+          <a href="https://cinema.promptiq.com.ng" className="chip"><span className="dot" />IQ Cinema</a>
+          <a href="https://ads.promptiq.com.ng" className="chip"><span className="dot" />IQ Ads</a>
+          <a href="https://academy.promptiq.com.ng" className="chip"><span className="dot" />IQ Academy</a>
+          <a href="https://pulse.promptiq.com.ng" className="chip"><span className="dot" />IQ Pulse</a>
+          <a href="https://meckury.ai" className="chip"><span className="dot" />Meckury AI</a>
         </div>
       </div>
     </header>
