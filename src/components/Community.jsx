@@ -14,7 +14,7 @@ const programs = [
   },
   {
     tag: 'Consultations',
-    desc: 'A focused one-hour call to demystify AI confusion for creators and brands — often, that\u2019s all it takes.',
+        desc: 'A focused call to demystify AI confusion for creators and brands — length scoped to what you actually need.',
   },
 ]
 
