@@ -6,6 +6,7 @@ export const logos = {
   iqAds: `${BASE}/iqadslogo.png`,
   iqAcademy: `${BASE}/iqacademy.png`,
   iqPulse: `${BASE}/iqpulseicon.png`,
+  iqMusic: `${BASE}/IQ%20Music%20Logo.png`,
   meckuryAI: `${BASE}/meckuryaiicon.png`,
   favicon: `${BASE}/promptiqfavicon.png`,
 }
@@ -25,6 +26,7 @@ export const heroBackgrounds = {
   ads: `${BASE}/iqadshero.png`,
   academy: `${BASE}/iqacademyhero.png`,
   pulse: `${BASE}/iqpulsehero.png`,
+  music: `${BASE}/IQ%20Music%20Banner.png`,
   meckuryAI: `${BASE}/meckuryaihero.png`,
 }
 
