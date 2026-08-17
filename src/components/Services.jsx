@@ -33,7 +33,7 @@ const slides = [
     external: true,
     bg: heroBackgrounds.academy,
   },
-    {
+  {
     key: 'pulse',
     logo: logos.iqPulse,
     name: 'IQ Pulse',
@@ -87,7 +87,7 @@ export default function Services() {
     <section id="services" className="slider-section">
       <div className="section-head container">
         <span className="eyebrow">What we do</span>
-        <h2>One agency, five disciplines.</h2>
+        <h2>One agency, six disciplines.</h2>
         <p>
           Each arm of PromptIQ stands on its own, built for a different job —
           from feature production and brand commercials to daily content and
@@ -118,9 +118,8 @@ export default function Services() {
             <div className="slide-content container">
               <h3>{s.name}</h3>
               <p>{s.desc}</p>
-              
-                className="service-link"
               <a
+                className="service-link"
                 href={s.href}
                 target={s.external ? '_blank' : undefined}
                 rel={s.external ? 'noreferrer' : undefined}
