@@ -33,7 +33,7 @@ const slides = [
     external: true,
     bg: heroBackgrounds.academy,
   },
-  {
+    {
     key: 'pulse',
     logo: logos.iqPulse,
     name: 'IQ Pulse',
@@ -42,6 +42,16 @@ const slides = [
     linkLabel: 'Explore Pulse',
     external: true,
     bg: heroBackgrounds.pulse,
+  },
+  {
+    key: 'music',
+    logo: logos.iqMusic,
+    name: 'IQ Music',
+    desc: "PromptIQ's record label — a roster of AI performers, branded and managed in-house, releasing original music across every genre.",
+    href: 'https://music.promptiq.com.ng',
+    linkLabel: 'Explore Music',
+    external: true,
+    bg: heroBackgrounds.music,
   },
   {
     key: 'meckuryAI',
