@@ -18,7 +18,8 @@ export default function Hero() {
           <a href="https://cinema.promptiq.com.ng" className="chip"><span className="dot" />IQ Cinema</a>
           <a href="https://ads.promptiq.com.ng" className="chip"><span className="dot" />IQ Ads</a>
           <a href="https://academy.promptiq.com.ng" className="chip"><span className="dot" />IQ Academy</a>
-          <a href="https://pulse.promptiq.com.ng" className="chip"><span className="dot" />IQ Pulse</a>
+                    <a href="https://pulse.promptiq.com.ng" className="chip"><span className="dot" />IQ Pulse</a>
+          <a href="https://music.promptiq.com.ng" className="chip"><span className="dot" />IQ Music</a>
           <a href="https://meckury.ai" className="chip"><span className="dot" />Meckury AI</a>
         </div>
       </div>
