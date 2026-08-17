@@ -246,6 +246,13 @@ button { font-family: inherit; cursor: pointer; }
   flex-wrap: wrap;
   gap: 12px;
 }
+@media (min-width: 640px) {
+  .chip-row {
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    justify-content: start;
+  }
+}
 .chip {
   border: 1px solid var(--panel-line);
   background: var(--panel);
